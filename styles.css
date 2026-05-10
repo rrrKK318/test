@@ -1,0 +1,18 @@
+:root { font-family: Arial, sans-serif; }
+body { margin: 0; background: #f3f4f6; }
+#app { min-height: 100vh; }
+.screen { max-width: 1200px; margin: 0 auto; padding: 16px; }
+.card { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 12px; }
+button { margin: 4px; padding: 8px 10px; }
+textarea, input, select { width: 100%; margin: 6px 0; padding: 6px; box-sizing: border-box; }
+.workspace { display: grid; grid-template-columns: 1.4fr 1fr; gap: 12px; }
+.toolbar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
+.text-view { white-space: pre-wrap; line-height: 1.6; max-height: 70vh; overflow: auto; }
+span.target { background: #ffe3e3; border-bottom: 2px solid #d90429; }
+span.related { background: #e7f5ff; border-bottom: 2px solid #1971c2; }
+span.evidence { background: #fff3bf; border-bottom: 2px solid #f08c00; }
+span.correction { background: #d3f9d8; border-bottom: 2px solid #2b8a3e; }
+.small { color: #555; font-size: 12px; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.list { max-height: 180px; overflow:auto; border:1px solid #ddd; padding:6px; }
+.badge { display:inline-block; background:#111; color:#fff; border-radius:999px; padding:2px 8px; font-size:12px; }
