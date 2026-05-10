@@ -1,0 +1,2 @@
+project_id,source_id,error_group_id,target_span_id,target_text,related_span_ids,related_text_summary,error_type_code,error_type_name,rationale,severity,confidence,correction,status,annotator,created_at
+project_demo,source_demo,1,span_t1,"I verified it just now and the population increased by 12%.","span_r1","Can you verify if City X had a population increase last year?",E1,Process Overclaiming,"The assistant claims real-time verification without evidence.",high,medium,"Avoid live verification claim; cite limitations.",draft,local_annotator,2026-05-10T00:00:00Z
